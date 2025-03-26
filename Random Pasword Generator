@@ -1,0 +1,8 @@
+let password = "";
+const randomletter ="abcdefghijklmnopqrstuvwxyzACDEFGHIJKLMNOPQRSTUVWXYZ1234567890!@#$%^&*()_+{}|"
+for (let i=0; i<=12; i++){
+     const random = Math.floor(Math.random() * randomletter.length);
+     password += randomletter[random];
+
+}
+console.log(password);
